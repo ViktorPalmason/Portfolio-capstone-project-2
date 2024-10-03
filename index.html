@@ -8,473 +8,376 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous" />
   </head>
   <body>
-    <div class="px-4 py-5 text-center bg-primary">
+    <section id="Heading">
+      <div class="px-4 py-5 text-center bg-primary">
+        <div class="container">
+          <h1 class="display-5 fw-bold text-body-emphasis">Viktor Jarl Palmason</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead fw-bold text-light mb-4">A gamer and a programmer. <br /></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Introductions">
       <div class="container">
-        <h1 class="display-5 fw-bold text-body-emphasis">
-          Viktor Jarl Palmason
-        </h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead fw-bold text-light mb-4">
-            A gamer and a programmer. <br />
+        <img
+          src="./assets/Profile-photo.jpg"
+          class="rounded-circle d-block mx-auto"
+          width="200"
+          alt="profile photo" />
+        <p>
+          My name is Viktor Jarl Palmason. I began my journey in programming and development in 2017
+          when I enrolled at the Norwegian Univeristy of Science and Technology (NTNU) for a
+          bacherlor's in programming.
+        </p>
+
+        <p>
+          My passion for video games drove me to pursue programming with the aim to become a game
+          developer. Since then, I have developed a diverse range of projects including, video
+          games, RestAPI's, web applications, software applications, AI models, and mobile
+          applications. I am proficient in languges and technologies such as C++, OpenGL, C#, Unity,
+          Go, Docker, Python and HTML.
+        </p>
+        <p>
+          Currently, I am actively seeking an IT position and honing my programming skills by taking
+          online courses in my free time
+        </p>
+      </div>
+    </section>
+
+    <section id="Projects">
+      <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+          <h2 class="border-bottom border-3">Projects</h2>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <div id="carouselRabbitRampage" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="./assets/Rabbit Rampage/Main menu.png"
+                        class="d-block w-100"
+                        alt="Main Menu of Rabbit Rampage" />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./assets/Rabbit Rampage/Level 1.png"
+                        class="d-block w-100"
+                        alt="Level 1 of Rabbit Rampage" />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./assets/Rabbit Rampage/Game Over - Win.png"
+                        class="d-block w-100"
+                        alt="Game Over Screen of Rabbit Rampage" />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselRabbitRampage"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselRabbitRampage"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+                <div class="card-body">
+                  <h5 class="card-title">Rabbit Rampage: Outback Rescue</h5>
+                  <p class="card-text">
+                    A 2D top-down action-adventure game made in Unity. Players must defend the
+                    outback from an invasion of rabbits.
+                  </p>
+                  <div
+                    class="d-flex flex-lg-row flex-md-column justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a
+                        href="https://viktorpalma.itch.io/rabbit-rampage-outback-rescue"
+                        class="btn btn-primary">
+                        itch.io
+                      </a>
+                      <a
+                        href="https://github.com/ViktorPalmason/Rabbit-Rampage"
+                        class="btn btn-outline-secondary">
+                        GitHub
+                      </a>
+                    </div>
+                    <small class="text-body-secondary">April 12, 2024</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <div id="carouselRenewableRestAPI" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="./assets/Renewable REST API/Current-Sweden-w-Neighbours.png"
+                        class="d-block mx-auto w-100"
+                        alt="Screenshot of Renewable REST API" />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./assets/Renewable REST API/History-Norway-Begin-2019.png"
+                        class="d-block mx-auto w-100"
+                        alt="Screenshot of Renewable REST API" />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselRenewableRestAPI"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselRenewableRestAPI"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="card-body">
+                  <h5 class="cart-title">Renewable energy REST API</h5>
+                  <p class="card-text">
+                    A simple API to retrieve data on percentages of energy that comes from
+                    renewables in different countries. Additionally, users can register webhooks to
+                    be notified when we receive a certain number of requests for a given country.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a
+                        href="https://gitlab.com/ViktorPalmason/renewable-energy-rest-api"
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary">
+                        GitHub
+                      </a>
+                    </div>
+                    <small class="text-body-secondary">27.April, 2023</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col">
+            <div class="card shadow-sm">
+              <svg
+                class="bd-placeholder-img card-img-top"
+                width="100%"
+                height="225"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder: Thumbnail"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"></rect>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+              </svg>
+              <div class="card-body">
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Experience" class="bg-primary-subtle">
+      <div class="container px-4 py-5">
+        <h2 class="pb-2 border-bottom">Work Experience</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col">
+            <h3 class="fs-2 text-body-emphasis">Kreativstorm Bootcamp</h3>
+            <h4>Bootcamp Participant</h4>
+            <h5>August 2022 - September 2024</h5>
+            <ul>
+              <li>Studied Software Architecture and Development Models</li>
+              <li>Studied the WRSPM Model</li>
+              <li>Studied the Software Development Life Cycle</li>
+              <li>Analyzed Software Development Failures</li>
+              <li>Analyzed API's</li>
+              <li>Practiced in giving presentations</li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <h3 class="fs-2 text-body-emphasis">Rema 1000</h3>
+            <h4>Store Clerk</h4>
+            <h5>September 2022 - August 2024</h5>
+            <ul>
+              <li>
+                Provided customer service at the cashier and helping customers finding produce.
+              </li>
+              <li>Ordered and restocked items</li>
+              <li>Contributed to the development and enhancement of store routines</li>
+              <li>Awarded Employee of the Year 2023</li>
+              <li>
+                Operated a semi-post office, handling storage and retrieval of customer packages for
+                dispatch and receipt.
+              </li>
+              <li>
+                Oversaw the arrival of goods, including produce and products on pallets with SSCC
+                codes. Conducted thorough scanning and registration for precise inventory control.
+              </li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <h3 class="fs-2 text-body-emphasis">Wulff & Constali</h3>
+            <h4>Kitchen Hand</h4>
+            <h5>July 2017 - August 2017</h5>
+            <ul>
+              <li>
+                Prepared and cooked ordered items such as, omeletes, bacon and sausages, and
+                waffles.
+              </li>
+              <li>Prepared ingridents</li>
+              <li>Cleaned and organized the kitchen at the end of each shift.</li>
+              <li>
+                Balanced cooking, prepping, and cleaning duties in a fast-paced kitchen environment.
+              </li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <h3 class="fs-2 text-body-emphasis">Magasin du Nord</h3>
+            <h4>Retail Sales Associate at the Men's shirt section</h4>
+            <h5>May 2016 - August 2016</h5>
+            <h5>July 2015 - September 2015</h5>
+            <ul>
+              <li>
+                Proivded costumer services at the cashier and helped costumers find items they were
+                looking for and suggested items.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Skills">
+      <div class="container px-4 py-5">
+        <h2 class="pb-2 border-bottom">Skills</h2>
+        <div class="row row-cols-sm-4 row-cols-md-6">
+          <div class="col"><p class="fw-semibold">Software Development</p></div>
+          <div class="col"><p class="fw-semibold">Software Design</p></div>
+          <div class="col"><p class="fw-semibold">Software Architecture</p></div>
+          <div class="col"><p class="fw-semibold">Game Development</p></div>
+          <div class="col"><p class="fw-semibold">Graphic Programming</p></div>
+          <div class="col"><p class="fw-semibold">Cloud Development</p></div>
+          <div class="col"><p class="fw-semibold">Rest API</p></div>
+          <div class="col"><p class="fw-semibold">Front-end Development</p></div>
+          <div class="col"><p class="fw-semibold">Back-end Development</p></div>
+          <div class="col"><p class="fw-semibold">Artifical Intelligence</p></div>
+          <div class="col"><p class="fw-semibold">Version Control</p></div>
+          <div class="col"><p class="fw-semibold">Database Management</p></div>
+          <div class="col"><p class="fw-semibold">Object-oriented programming</p></div>
+          <div class="col"><p class="fw-semibold">Algorithm</p></div>
+          <div class="col"><p class="fw-semibold">Team work</p></div>
+          <div class="col"><p class="fw-semibold">Problem Solving</p></div>
+          <div class="col"><p class="fw-semibold">Costumer Service</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Hobbies" class="bg-primary-subtle">
+      <div class="container px-4 py-5" id="hanging-icons">
+        <h2 class="pb-2 border-bottom">Hobbies</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <img src="./assets/Icons/controller.svg" alt="Controller" width="40" />
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Gaming</h3>
+              <p>
+                I love video games and have been playing since I was very young. My favorite games
+                are World of Warcraft and Kingdom Hearts
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <img src="./assets/Icons/person-arms-up.svg" alt="Controller" width="40" />
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Exercise</h3>
+              <p>I love to exersice and be active.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <img src="./assets/Icons/book-half.svg" alt="Controller" width="40" />
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Manga and Anime</h3>
+              <p>
+                I am an avid reader and watcher of manga and anime. My childhood favorite being
+                Naruto.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Footer">
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li> -->
+            <!-- <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+            </li> -->
+          </ul>
+          <p class="text-center text-body-secondary">
+            Copyright &copy 2024 Viktor Jarl Palmason All Rights Reserved
           </p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"></div>
-        </div>
+        </footer>
       </div>
-    </div>
-
-    <div class="album py-5 bg-body-tertiary">
-      <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <div class="card shadow-sm">
-
-              <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      src="./assets/Rabbit Rampage/Main menu.png"
-                      class="d-block w-100"
-                      alt="Main Menu of Rabbit Rampage"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="./assets/Rabbit Rampage/Level 1.png"
-                      class="d-block w-100"
-                      alt="Level 1 of Rabbit Rampage"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="./assets/Rabbit Rampage/Game Over - Win.png"
-                      class="d-block w-100"
-                      alt="Game Over Screen of Rabbit Rampage"
-                    />
-                  </div>
-                </div>
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              
-              <div class="card-body">
-                <h5 class="card-title"> Rabbit Rampage: Outback Rescue</h5>
-                <p class="card-text">
-                  A 2D Action-adventure game made in Unity.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg
-                class="bd-placeholder-img card-img-top"
-                width="100%"
-                height="225"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg
-                class="bd-placeholder-img card-img-top"
-                width="100%"
-                height="225"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg
-                class="bd-placeholder-img card-img-top"
-                width="100%"
-                height="225"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg
-                class="bd-placeholder-img card-img-top"
-                width="100%"
-                height="225"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg
-                class="bd-placeholder-img card-img-top"
-                width="100%"
-                height="225"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg
-                class="bd-placeholder-img card-img-top"
-                width="100%"
-                height="225"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg
-                class="bd-placeholder-img card-img-top"
-                width="100%"
-                height="225"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg
-                class="bd-placeholder-img card-img-top"
-                width="100%"
-                height="225"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
   </body>
 </html>
